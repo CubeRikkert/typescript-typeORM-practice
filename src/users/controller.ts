@@ -1,4 +1,4 @@
-import { JsonController, Get, Param, Put, Body, Post, HttpCode, NotFoundError } from 'routing-controllers'
+import { JsonController, Get, Param, Put, Body, Post, NotFoundError } from 'routing-controllers'
 import User from './entity'
 
 @JsonController()

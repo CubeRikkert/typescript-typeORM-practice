@@ -3,11 +3,13 @@ import {createKoaServer} from 'routing-controllers'
 import PageController from './pages/controller'
 import setupDb from './db'
 import UserController from './users/controller'
+import LoginController from './logins/controller'
 
 const app = createKoaServer({
   controllers: [
     PageController,
-    UserController
+    UserController,
+    LoginController
   ]
 })
 
