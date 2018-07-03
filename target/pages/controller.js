@@ -12,7 +12,6 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var _a;
 const routing_controllers_1 = require("routing-controllers");
 const entity_1 = require("./entity");
 let PageController = class PageController {
@@ -51,7 +50,7 @@ __decorate([
     __param(0, routing_controllers_1.Param('id')),
     __param(1, routing_controllers_1.Body()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number, typeof (_a = typeof Partial !== "undefined" && Partial) === "function" && _a || Object]),
+    __metadata("design:paramtypes", [Number, Object]),
     __metadata("design:returntype", Promise)
 ], PageController.prototype, "updatePage", null);
 __decorate([

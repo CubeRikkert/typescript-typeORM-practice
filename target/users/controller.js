@@ -21,7 +21,6 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var _a;
 const routing_controllers_1 = require("routing-controllers");
 const entity_1 = require("./entity");
 let UserController = class UserController {
@@ -63,7 +62,7 @@ __decorate([
     __param(0, routing_controllers_1.Param('id')),
     __param(1, routing_controllers_1.Body()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number, typeof (_a = typeof Partial !== "undefined" && Partial) === "function" && _a || Object]),
+    __metadata("design:paramtypes", [Number, Object]),
     __metadata("design:returntype", Promise)
 ], UserController.prototype, "updateUser", null);
 __decorate([
